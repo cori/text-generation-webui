@@ -194,6 +194,7 @@ def messages_to_prompt(body: dict, req_params: dict, max_tokens):
 
             print(f"Exception: When loading instruction-templates/{shared.settings['instruction_template']}.yaml: {repr(e)}")
             print("Warning: Loaded default instruction-following template for model.")
+            # print(f"{shared.settings}")
 
     else:
         req_params['stopping_strings'].extend(['\nUser:', 'User:'])  # XXX User: prompt here also

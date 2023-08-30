@@ -213,6 +213,8 @@ class Handler(BaseHTTPRequestHandler):
 
             if not shared.model:
                 raise ServiceUnavailableError("No model loaded.")
+            else:
+                print(f"{shared.settings}")
 
             is_legacy = '/generate' in self.path
             is_streaming = body.get('stream', False)

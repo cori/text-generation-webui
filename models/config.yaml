@@ -180,3 +180,10 @@
   instruction_template: 'ChatML'
 .*(WizardCoder-Python-34B-V1.0|Phind-CodeLlama-34B-v2|CodeBooga-34B-v0.1):
   instruction_template: 'Alpaca'
+  rms_norm_eps: 5.0e-6
+wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
+  mode: 'instruct'
+  instruction_template: 'Vicuna-v1.1'
+.*codellama.*:
+  mode: 'instruct'
+  instruction_template: 'CodeLlama'

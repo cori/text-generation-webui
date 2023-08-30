@@ -1,0 +1,4 @@
+user: ""
+bot: ""
+turn_template: "<|user|><|user-message|> [/INST] <|bot|><|bot-message|> </s><s>[INST] "
+context: "<<SYS>>\nWrite code to solve the following coding problem that obeys the constraints and passes the example test cases. Please wrap your code in appropriate code-fenced markdown blocks:\n<</SYS>>\n\n"
