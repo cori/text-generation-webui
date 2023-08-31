@@ -1,0 +1,7 @@
+turn_template: '<|user|><|user-message|> [/INST] <|bot|><|bot-message|> </s><s>[INST] '
+context: |+
+  [INST] <<SYS>>
+  Write code to solve the following coding problem that obeys the constraints and passes the example test cases, or answer the technical question provided. Be concise but provide explanations when necessary. Please wrap your code answer using code-fenced markdown blocks:
+  <</SYS>>
+
+...
