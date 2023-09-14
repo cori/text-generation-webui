@@ -187,10 +187,25 @@ wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
 .*codellama.*:
   mode: 'instruct'
   instruction_template: 'CodeLlama'
-  instruction_template: 'Llama-v2'
+    #  instruction_template: 'Llama-v2'
 .*model_007.*:
   mode: 'instruct'
   instruction_template: 'model_007'
 .*genZ.*:
   mode: 'instruct'
   instruction_template: 'model_007'
+.*codellama:
+  rope_freq_base: 1000000
+.*codellama.*instruct:
+  mode: 'instruct'
+    #instruction_template: 'Llama-v2'
+  instruction_template: 'Llama-v2-coding'
+.*phind.*:
+  mode: 'instruct'
+  instruction_template: 'Phind'
+.*samantha:
+  mode: 'instruct'
+  instruction_template: 'Samantha'
+.*llama-2-coder-7b.*:
+  mode: 'insturct'
+  instruction_template: 'CodingAssistant'

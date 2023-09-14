@@ -194,9 +194,9 @@ genz-70b.Q4_K_M.gguf$:
   low_vram: false
   mlock: false
   mul_mat_q: false
-  n_gpu_layers: 9
+  n_gpu_layers: 7
   tensor_split: ''
-  n_ctx: 2048
+  n_ctx: 3072
   n_gqa: 0
   rms_norm_eps: 0
   llama_cpp_seed: 0.0
@@ -239,3 +239,75 @@ model_007-70b.Q5_K_M.gguf$:
   compress_pos_emb: 1
   alpha_value: 1
   rope_freq_base: 1000000
+phind-codellama-34b-v2.Q5_K_M.gguf:
+  loader: llama.cpp
+  cpu: false
+  threads: 0
+  n_batch: 512
+  no_mmap: false
+  low_vram: false
+  mlock: false
+  mul_mat_q: false
+  n_gpu_layers: 9
+  tensor_split: ''
+  n_ctx: 4096
+  n_gqa: 0
+  rms_norm_eps: 0
+  llama_cpp_seed: 0.0
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 1000000
+yarn-llama-2-13b-64k.Q5_K_M.gguf$:
+  loader: llama.cpp
+  cpu: false
+  threads: 0
+  n_batch: 512
+  no_mmap: false
+  low_vram: false
+  mlock: false
+  mul_mat_q: false
+  n_gpu_layers: 7
+  tensor_split: ''
+  n_ctx: 16384
+  n_gqa: 0
+  rms_norm_eps: 5.0e-06
+  llama_cpp_seed: 0.0
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 0
+codellama-34b-instruct.Q5_K_M.gguf$:
+  loader: llama.cpp
+  cpu: false
+  threads: 0
+  n_batch: 512
+  no_mmap: false
+  low_vram: false
+  mlock: false
+  mul_mat_q: false
+  n_gpu_layers: 9
+  tensor_split: ''
+  n_ctx: 2048
+  n_gqa: 0
+  rms_norm_eps: 0
+  llama_cpp_seed: 0.0
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 1000000
+llama-2-coder-7b.Q6_K.gguf$:
+  loader: llama.cpp
+  cpu: false
+  threads: 0
+  n_batch: 512
+  no_mmap: false
+  low_vram: false
+  mlock: false
+  mul_mat_q: false
+  n_gpu_layers: 13
+  tensor_split: ''
+  n_ctx: 2048
+  n_gqa: 0
+  rms_norm_eps: 5.0e-06
+  llama_cpp_seed: 0.0
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 0

@@ -1,0 +1,7 @@
+### System Prompt
+You are an intelligent programming assistant. Below is an instruction that describes a task or asks a question. Write a concise response that appropriately completes the request.
+
+### User Message:
+{prompt}
+
+### Assistant:
