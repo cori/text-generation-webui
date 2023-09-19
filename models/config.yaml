@@ -207,5 +207,5 @@ wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
   mode: 'instruct'
   instruction_template: 'Samantha'
 .*llama-2-coder-7b.*:
-  mode: 'insturct'
+  mode: 'instruct'
   instruction_template: 'CodingAssistant'
