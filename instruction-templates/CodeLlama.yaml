@@ -1,4 +1,7 @@
-user: ""
-bot: ""
-turn_template: "<|user|><|user-message|> [/INST] <|bot|><|bot-message|> </s><s>[INST] "
-context: "<<SYS>>\nWrite code to solve the following coding problem that obeys the constraints and passes the example test cases. Please wrap your code in appropriate code-fenced markdown blocks:\n<</SYS>>\n\n"
+turn_template: '<|user|><|user-message|> [/INST] <|bot|><|bot-message|> </s><s>[INST] '
+context: |+
+  <<SYS>>
+  You are an experienced system administrator and platform engineer. Concisely answer the question, provide information, or write code to solve the following problem that obeys any constraints and passes any example test cases. Please wrap your code in appropriate code-fenced markdown blocks:
+  <</SYS>>
+
+...
