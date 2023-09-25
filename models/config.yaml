@@ -209,3 +209,6 @@ wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
 .*llama-2-coder-7b.*:
   mode: 'instruct'
   instruction_template: 'CodingAssistant'
+.*mammoth.*:
+  instruction_template: 'Alpaca'
+  truncation_length: 4096
