@@ -221,6 +221,27 @@ samantha-1.11-codellama-34b.Q5_K_M.gguf$:
   compress_pos_emb: 1
   alpha_value: 1
   rope_freq_base: 1000000
+  numa: false
+samantha-1-11-codellama-34b.Q5_K_M.gguf$:
+  loader: llama.cpp
+  cpu: false
+  threads: 0
+  n_batch: 512
+  no_mmap: false
+  low_vram: false
+  mlock: false
+  mul_mat_q: false
+  n_gpu_layers: 9
+  tensor_split: ''
+  n_ctx: 4096
+  n_gqa: 0
+  rms_norm_eps: 0
+  llama_cpp_seed: 0.0
+  compress_pos_emb: 1
+  alpha_value: 1
+  rope_freq_base: 1000000
+  numa: false
+  instruction_template: 'Samantha'
 model_007-70b.Q5_K_M.gguf$:
   loader: llama.cpp
   cpu: false

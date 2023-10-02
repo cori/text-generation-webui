@@ -184,10 +184,17 @@
 wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
   mode: 'instruct'
   instruction_template: 'Vicuna-v1.1'
+    #.*samantha.*:
+    #mode: 'instruct'
+    #instruction_template: 'Samantha'
 .*codellama.*:
   mode: 'instruct'
   instruction_template: 'CodeLlama'
+    #instruction_template: 'Samantha'
     #  instruction_template: 'Llama-v2'
+    #.*samantha.*:
+    #mode: 'instruct'
+    #instruction_template: 'Samantha'
 .*model_007.*:
   mode: 'instruct'
   instruction_template: 'model_007'
@@ -203,12 +210,18 @@ wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
 .*phind.*:
   mode: 'instruct'
   instruction_template: 'Phind'
-.*samantha:
-  mode: 'instruct'
-  instruction_template: 'Samantha'
+    #.*samantha:
+    #mode: 'instruct'
+    #instruction_template: 'Samantha'
 .*llama-2-coder-7b.*:
   mode: 'instruct'
   instruction_template: 'CodingAssistant'
 .*mammoth.*:
   instruction_template: 'Alpaca'
   truncation_length: 4096
+.*samantha.*:
+  mode: 'instruct'
+  instruction_template: 'Samantha'
+    #samantha\-1\.11\-codellama\-34b\.Q5\_K\_M\.gguf:
+    #mode: 'instruct'
+    #instruction_template: 'Samantha'
