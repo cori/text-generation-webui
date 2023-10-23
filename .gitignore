@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /cache
 /characters
 /css
@@ -29,7 +28,6 @@
 .idea
 .venv
 venv
-=======
 cache
 characters
 training/datasets
@@ -50,18 +48,15 @@ torch-dumps
 */*/pycache*
 venv/
 .venv/
->>>>>>> b08e465 (track user-config, just ignore actual models)
 .vscode
 *.bak
 *.ipynb
 *.log
-<<<<<<< HEAD
 *pycache*
 cert.pem
 key.pem
 package.json
 package-lock.json
-=======
 
 settings.json
 settings.yaml
@@ -71,6 +66,10 @@ img_me*
 prompts/[0-9]*
 
 .DS_Store
->>>>>>> b08e465 (track user-config, just ignore actual models)
 Thumbs.db
 wandb
+.chroma
+installer_files
+
+# cori
+models/TheBloke_Octocoder-GPTQ/
