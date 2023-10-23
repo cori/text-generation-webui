@@ -225,3 +225,5 @@ wizardlm-33b-v1.0-uncensored.ggmlv3.q4_K_M.bin:
     #samantha\-1\.11\-codellama\-34b\.Q5\_K\_M\.gguf:
     #mode: 'instruct'
     #instruction_template: 'Samantha'
+.*codebooga:
+  instruction_template: 'Alpaca'
